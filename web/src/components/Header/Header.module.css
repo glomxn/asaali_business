@@ -1,0 +1,11 @@
+.header{height:64px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 12px;background:var(--panel);border:none;border-radius:var(--radius);backdrop-filter:blur(var(--blur));box-shadow:var(--shadow-soft)}
+.iconBtn{width:42px;height:42px;border-radius:14px;border:none;background:transparent;color:var(--text);cursor:pointer;transition:all 0.15s;display:flex;align-items:center;justify-content:center}
+.iconBtn:hover{background:rgba(255,255,255,0.05)}
+.center{flex:1;text-align:center}
+.h1{font-weight:900}
+.h2{font-size:12px;color:var(--muted);margin-top:2px}
+.right{display:flex;align-items:center;gap:10px}
+.user{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text)}
+.staff{margin-left:6px;display:inline-flex;align-items:center;gap:6px;color:var(--accent);font-weight:800}
+.close{width:42px;height:42px;border-radius:14px;border:none;background:transparent;color:var(--text);cursor:pointer;transition:all 0.15s;display:flex;align-items:center;justify-content:center}
+.close:hover{background:rgba(228,87,87,0.15);color:var(--danger)}

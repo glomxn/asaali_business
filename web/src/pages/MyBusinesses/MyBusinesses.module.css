@@ -1,0 +1,112 @@
+.page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
+.h1 {
+  font-size: 22px;
+  font-weight: 900;
+}
+.h2 {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.refresh {
+  border-radius: 14px;
+  border: 1px solid var(--stroke);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.refresh:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--stroke-2);
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  backdrop-filter: blur(var(--blur));
+}
+.stat {
+  text-align: center;
+}
+.statLabel {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.statValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+}
+.statValue.positive {
+  color: var(--success);
+}
+.statValue.negative {
+  color: var(--danger);
+}
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px;
+  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  backdrop-filter: blur(var(--blur));
+}
+.input,
+.select {
+  height: 40px;
+  border-radius: 14px;
+  border: 1px solid var(--stroke);
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--text);
+  padding: 0 12px;
+}
+.input {
+  flex: 1;
+  min-width: 220px;
+}
+.select {
+  min-width: 160px;
+}
+.grid {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding-right: 2px;
+}
+@media (max-width: 1100px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+.empty {
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px dashed var(--stroke);
+  color: var(--muted);
+  text-align: center;
+  grid-column: 1 / -1;
+}
+

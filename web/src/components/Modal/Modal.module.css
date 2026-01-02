@@ -1,0 +1,7 @@
+.backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.65);display:grid;place-items:center;padding:22px}
+.modal{width:min(620px,92vw);background:rgba(16,17,22,0.78);border:1px solid var(--stroke);border-radius:22px;backdrop-filter:blur(var(--blur));box-shadow:var(--shadow);overflow:hidden}
+.head{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--stroke)}
+.title{font-weight:900}
+.close{width:36px;height:36px;border-radius:12px;border:1px solid var(--stroke);background:rgba(255,255,255,0.05);color:var(--text);cursor:pointer}
+.body{padding:16px}
+.footer{padding:14px 16px;border-top:1px solid var(--stroke);display:flex;justify-content:flex-end;gap:10px}

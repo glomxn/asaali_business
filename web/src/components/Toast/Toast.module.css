@@ -1,0 +1,9 @@
+.wrap{position:absolute;right:26px;bottom:24px;display:flex;flex-direction:column;gap:10px;pointer-events:none}
+.toast{display:flex;gap:10px;align-items:flex-start;min-width:320px;max-width:420px;padding:12px 14px;border-radius:18px;border:1px solid var(--stroke);background:rgba(18,19,24,0.82);backdrop-filter:blur(var(--blur));box-shadow:var(--shadow-soft)}
+.text{display:flex;flex-direction:column;gap:2px}
+.title{font-weight:900}
+.msg{font-size:12px;color:var(--muted)}
+.success{border-color:rgba(63,209,138,0.35)}
+.error{border-color:rgba(228,87,87,0.35)}
+.info{border-color:rgba(255,255,255,0.14)}
+.warning{border-color:rgba(243,197,72,0.35)}

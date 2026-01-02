@@ -1,0 +1,4 @@
+.wrap{position:absolute;inset:0;display:grid;place-items:center;padding:42px}
+.tablet{width:min(1280px,92vw);height:min(760px,86vh);background:linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.03));border:1px solid var(--stroke);border-radius:26px;box-shadow:var(--shadow);overflow:hidden;position:relative}
+.topGlow{position:absolute;inset:-120px -120px auto -120px;height:240px;background:radial-gradient(circle at 50% 50%,rgba(201,162,39,0.25),transparent 60%);filter:blur(18px);pointer-events:none}
+.content{height:100%;padding:18px;display:flex;flex-direction:column;gap:16px}
