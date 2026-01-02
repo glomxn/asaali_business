@@ -1,1 +1,1 @@
-# asaali business script made by savvy5l
+# Asaali - Business script.
